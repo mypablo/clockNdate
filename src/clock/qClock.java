@@ -28,9 +28,8 @@ public class qClock {
 		
 		
 	}
-
 	
-		public static void pick() {
+	public static void pick() {
 			
 			System.out.println("Please press a number :\n "
 					+ "(1)For Hour and minutes\n (2)For month,day and year\n (3)For everything");
