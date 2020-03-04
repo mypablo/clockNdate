@@ -47,7 +47,7 @@ public class qClock {
 			
 			int in = input.nextInt();
 			
-			
+			//if-loop
 			if (in==1) {
 				
 				System.out.println(hour+":"+minute);
