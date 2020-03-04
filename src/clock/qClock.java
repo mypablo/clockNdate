@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.Scanner;
 
 public class qClock {
-	
+	// variables
 	static Calendar now = Calendar.getInstance();
 	
 	static int hour = now.get(Calendar.HOUR_OF_DAY);
@@ -30,7 +30,7 @@ public class qClock {
 	}
 	
 	public static void pick() {
-			
+			//print 
 			System.out.println("Please press a number :\n "
 					+ "(1)For Hour and minutes\n (2)For month,day and year\n (3)For everything");
 			
